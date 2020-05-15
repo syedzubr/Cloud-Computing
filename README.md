@@ -36,7 +36,7 @@ Orchestrator.
 
 mongo-init.js files help in automated authentication of mongo database
 
-Some commands:
+# Some commands:
 
 sudo docker logs 'container name'     // to get logs of the container
 
