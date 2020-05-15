@@ -47,3 +47,9 @@ sudo docker stop $(sudo docker ps -a -q)    // to stop all containers
 sudo docker rm rmq     //To remove the stoped container here rmq ( name of rabbitmq conainer as in docker-compose file )
 
 sudo docker system prune -a --volumes      // To delete all the stopped images, caches everything its used ( carefull)
+
+# To run in any machine
+
+Change the IP address in files of rides(a.py) and users(ap.py) instance to the IP address of your orchestrator
+
+Loacte the location of your mongo-init.js file at line no 62 in orc.py file
