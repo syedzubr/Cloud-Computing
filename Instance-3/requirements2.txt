@@ -1,0 +1,7 @@
+ipython
+docker
+pika
+kazoo
+Flask
+Flask-PyMongo
+requests
